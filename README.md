@@ -17,24 +17,6 @@ Database
 
 Dockerized Deployment Setup
 
-## Repository Structure
-xrwvm-fullstack_developer_capstone/
-├── README.md                # This documentation
-├── .gitignore               # Ignored files
-└── server/                  # Django backend code
-	├── database/               # Database related configuration/data
-	├── djangoapp/              # Django app (models, views, APIs)
-	├── djangoproj/             # Django project settings & configuration
-	├── frontend/               # Frontend application
-	├── Dockerfile              # Backend container definition
-	├── deployment.yaml         # Kubernetes deployment config
-	├── entrypoint.sh           # Container startup script
-	├── manage.py               # Django CLI entry point
-	├── requirements.txt        # Python dependencies
-	├── package.json            # Frontend dependencies
-	└── package-lock.json
-
-
 ## Getting Started
 ### Prerequisites
 
